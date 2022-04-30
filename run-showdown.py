@@ -5,7 +5,7 @@
 # Additionally, Python is full of useful ML libraries that will greatly
 #   increase the scope of what we can do in this project.
 
-import os, sys
+import os, sys, subprocess
 
 if __name__ == "__main__":
     # Use this string to easily access the pokemon-showdown directory when executing commands.
@@ -37,14 +37,19 @@ if __name__ == "__main__":
 
     with open("pokemon-showdown/genTeamP2.txt") as f:
         p2Team = f.readlines()
-
+    
     print("p1's team is: ", p1Team)
     print("p2's team is: ", p2Team)
 
+    # members = 0
+    # for member in p1Team.split("]"):
+    #     members += 1
+    #     print("member of team 1: " + member)
+    # print("total members: ", members)
+
     print("Starting battle...")
-    # simulate a battle
-    os.system(sDir + sNode + "simulate-battle && \
-    >start {\"formatid\":\"gen1randombattle\"}")
+    # simulate a battle with the generated teams
+    os.system(sDir + "node .sim-dist/examples/run-battle")
 
     print("done")
     # sys.stdout.close()

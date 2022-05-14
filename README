@@ -1,12 +1,16 @@
 To run the simulator, enter the directory and run "python3 run-showdown.py".
 
-File Descriptions:
+Useful/Important File Descriptions:
 - run-showdown.py: Runs the simulator for testing and training, depending on the configuration.
 - parse-battle.py: Reads the battle log "battleOutput.py" after a battle completes and determines what states were vistited and what rewards were reaped. Also keeps track of the win tally.
 - Tally.txt: The number of victories for each actor, listed as "<p1Victories> <p2Victories>".
 - Coverage.txt: The number of moves covered and not covered for p1, listed as "<p1MovesCovered> <p1MovesNotCovered>".
 - adversaryCoverage.txt: Like Coverage.txt, but for the adversary (p2).
-
+- SAR.txt: The state-action-reward information gathered during training, referenced during testing to choose the best move. Place whatever agent's SAR values you'd like to test on in this file, and when done with training it's recommended to save the SAR in a new file.
+- EnemySAR.txt: Like Sar.txt, but for the adversary (p2).
+- time.txt: A running counter of the time taken since starting run-showdown, taken every iteration.
+* There are various .txt files generated for communication between the simulator and the parser which can be found in the pokemon-showdown directory. They should be fairly self-explanatory.
+* Within pokemon-showdown/sim lies the actual simulator files, with the ones run by run-showdown inside the examples folder. I won't go into detail about them since they're not necessary to run the project.
 
 There are a few booleans throughout the files that will affect specifically what is run:
 - Across all files:

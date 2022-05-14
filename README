@@ -1,1 +1,24 @@
-hello
+To run the simulator, enter the directory and run "python3 run-showdown.py".
+
+File Descriptions:
+- run-showdown.py: Runs the simulator for testing and training, depending on the configuration.
+- parse-battle.py: Reads the battle log "battleOutput.py" after a battle completes and determines what states were vistited and what rewards were reaped. Also keeps track of the win tally.
+- Tally.txt: The number of victories for each actor, listed as "<p1Victories> <p2Victories>".
+
+
+There are a few booleans throughout the files that will affect specifically what is run:
+- Across all files:
+    - printTeams: Prints the teams of p1 and p2 at the start of battle. For debugging.
+    - printTurnOutput: Prints the battle output sent to battleOutput.txt. For debugging.
+    - doubleSAR: If this is set to true, the respective file will assume both the active and defending pokemon are considered in the state space (stored in SAR.txt). Make sure to change this for all relevant files!
+- run-showdown.py:
+    - clear...: Clears the corresponding output file at the start of running. Take care to disable clearSARs when running testing battles!
+    - training: Runs five rounds of the same team configurations and makes the learner/opponent act randomly.
+    - adversary: Overriden by training. Instead of testing against a random opponent, tests against another agent using enemySAR.txt and adversary-precompute.py.
+    - useTimeLimit: Only relevant if training is enabled. Stops training after the specified time or 5,000 iterations, whichever comes first.
+    - roundBreak: Stops training/testing after one iteration. Used for debugging purposes.
+    - printVerbose: Prints a lot of output. For debugging.
+- pokemon-showdown/sim/examples/run-learning-battle.ts:
+    - enhanced: If true, the trainee will fight against a reinforcement learning adversary using enemySAR.txt and adversary-precompute.py instead of a random opponent.
+
+Note that because the resulting policy is deterministic, there is a small chance (~5%) that the simulator will terminate with an exception due to the agent trying to use a disabled move. Fixing this is a topic of future work, but most battles will terminate successfully.

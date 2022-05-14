@@ -4,6 +4,8 @@ File Descriptions:
 - run-showdown.py: Runs the simulator for testing and training, depending on the configuration.
 - parse-battle.py: Reads the battle log "battleOutput.py" after a battle completes and determines what states were vistited and what rewards were reaped. Also keeps track of the win tally.
 - Tally.txt: The number of victories for each actor, listed as "<p1Victories> <p2Victories>".
+- Coverage.txt: The number of moves covered and not covered for p1, listed as "<p1MovesCovered> <p1MovesNotCovered>".
+- adversaryCoverage.txt: Like Coverage.txt, but for the adversary (p2).
 
 
 There are a few booleans throughout the files that will affect specifically what is run:

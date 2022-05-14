@@ -27,4 +27,6 @@ There are a few booleans throughout the files that will affect specifically what
 - pokemon-showdown/sim/examples/run-learning-battle.ts:
     - enhanced: If true, the trainee will fight against a reinforcement learning adversary using enemySAR.txt and adversary-precompute.py instead of a random opponent.
 
-Note that because the resulting policy is deterministic, there is a small chance (~5%) that the simulator will terminate with an exception due to the agent trying to use a disabled move. Fixing this is a topic of future work, but most battles will terminate successfully.
+Note that because the resulting policy is deterministic, there is a small chance (~5% on a given battle) that the simulator will terminate with an exception due to the agent trying to use a disabled move.
+This doesn't stop execution, so it's more of an annoyance than anything.
+Fixing this is a topic of future work, but most battles will terminate successfully.

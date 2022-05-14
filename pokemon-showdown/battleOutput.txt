@@ -1,0 +1,386 @@
+|t:|1652487416
+|gametype|singles
+|player|p1|Reinforcement Doer||
+|player|p2|Reinforcement Adversary||
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Desync Clause Mod: Desyncs changed to move failure.
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|t:|1652487417
+|start
+|switch|p1a: Kingler|Kingler, L77|243/243
+|switch|p2a: Kabuto|Kabuto, L88|232/232
+|turn|1|
+|t:|1652487417
+|move|p1a: Kingler|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|203/232
+|move|p2a: Kabuto|Surf|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|191/243
+|
+|upkeep
+|turn|2|
+|t:|1652487417
+|move|p1a: Kingler|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|173/232
+|move|p2a: Kabuto|Slash|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|101/243
+|
+|upkeep
+|turn|3|
+|t:|1652487417
+|move|p1a: Kingler|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|146/232
+|-status|p2a: Kabuto|par
+|cant|p2a: Kabuto|par
+|
+|upkeep
+|turn|4|
+|t:|1652487417
+|move|p1a: Kingler|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|116/232 par
+|move|p2a: Kabuto|Slash|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|22/243
+|
+|upkeep
+|turn|5|
+|t:|1652487417
+|move|p1a: Kingler|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|90/232 par
+|move|p2a: Kabuto|Slash|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler|
+|t:|1652487417
+|switch|p1a: Exeggutor|Exeggutor, L68|270/270
+|turn|6|
+|t:|1652487417
+|move|p1a: Exeggutor|Explosion|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|19/232 par
+|faint|p1a: Exeggutor|
+|t:|1652487417
+|switch|p1a: Haunter|Haunter, L74|219/219
+|turn|7|
+|t:|1652487417
+|move|p1a: Haunter|Night Shade|p2a: Kabuto
+|-damage|p2a: Kabuto|0 fnt
+|faint|p2a: Kabuto|
+|t:|1652487417
+|switch|p2a: Machoke|Machoke, L80|292/292
+|turn|8|
+|t:|1652487417
+|move|p1a: Haunter|Psychic|p2a: Machoke
+|-crit|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke|
+|t:|1652487417
+|switch|p2a: Pidgeot|Pidgeot, L80|297/297
+|turn|9|
+|t:|1652487417
+|move|p2a: Pidgeot|Substitute|p2a: Pidgeot
+|-start|p2a: Pidgeot|Substitute
+|-damage|p2a: Pidgeot|223/297
+|move|p1a: Haunter|Night Shade|p2a: Pidgeot
+|-activate|p2a: Pidgeot|Substitute|[damage]
+|
+|upkeep
+|turn|10|
+|t:|1652487417
+|move|p2a: Pidgeot|Substitute|p2a: Pidgeot
+|-fail|p2a: Pidgeot|move: Substitute
+|move|p1a: Haunter|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-end|p2a: Pidgeot|Substitute
+|
+|upkeep
+|turn|11|
+|t:|1652487417
+|move|p2a: Pidgeot|Substitute|p2a: Pidgeot
+|-start|p2a: Pidgeot|Substitute
+|-damage|p2a: Pidgeot|149/297
+|move|p1a: Haunter|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-end|p2a: Pidgeot|Substitute
+|
+|upkeep
+|turn|12|
+|t:|1652487417
+|move|p2a: Pidgeot|Substitute|p2a: Pidgeot
+|-start|p2a: Pidgeot|Substitute
+|-damage|p2a: Pidgeot|75/297
+|move|p1a: Haunter|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-end|p2a: Pidgeot|Substitute
+|
+|upkeep
+|turn|13|
+|t:|1652487417
+|move|p2a: Pidgeot|Substitute|p2a: Pidgeot
+|-start|p2a: Pidgeot|Substitute
+|-damage|p2a: Pidgeot|1/297
+|move|p1a: Haunter|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-end|p2a: Pidgeot|Substitute
+|
+|upkeep
+|turn|14|
+|t:|1652487417
+|move|p2a: Pidgeot|Substitute|p2a: Pidgeot
+|-fail|p2a: Pidgeot|move: Substitute|[weak]
+|move|p1a: Haunter|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot|
+|t:|1652487417
+|switch|p2a: Rapidash|Rapidash, L80|268/268
+|turn|15|
+|t:|1652487417
+|move|p2a: Rapidash|Body Slam|p1a: Haunter
+|-immune|p1a: Haunter
+|move|p1a: Haunter|Thunderbolt|p2a: Rapidash
+|-damage|p2a: Rapidash|199/268
+|
+|upkeep
+|turn|16|
+|t:|1652487417
+|move|p2a: Rapidash|Fire Blast|p1a: Haunter
+|-crit|p1a: Haunter
+|-damage|p1a: Haunter|23/219
+|-status|p1a: Haunter|brn
+|move|p1a: Haunter|Thunderbolt|p2a: Rapidash
+|-damage|p2a: Rapidash|130/268
+|-damage|p1a: Haunter|10/219 brn|[from] brn|[of] p2a: Rapidash
+|
+|upkeep
+|turn|17|
+|t:|1652487417
+|move|p2a: Rapidash|Fire Blast|p1a: Haunter|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Haunter|Thunderbolt|p2a: Rapidash
+|-damage|p2a: Rapidash|65/268
+|-damage|p1a: Haunter|0 fnt|[from] brn|[of] p2a: Rapidash
+|faint|p1a: Haunter|
+|t:|1652487417
+|switch|p1a: Hitmonlee|Hitmonlee, L80|244/244
+|turn|18|
+|t:|1652487417
+|move|p2a: Rapidash|Fire Blast|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|75/244
+|-status|p1a: Hitmonlee|brn
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash|
+|t:|1652487417
+|switch|p2a: Caterpie|Caterpie|293/293
+|turn|19|
+|t:|1652487417
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Caterpie
+|-resisted|p2a: Caterpie
+|-damage|p2a: Caterpie|261/293
+|-damage|p1a: Hitmonlee|60/244 brn|[from] brn|[of] p2a: Caterpie
+|move|p2a: Caterpie|String Shot|p1a: Hitmonlee
+|-unboost|p1a: Hitmonlee|spe|1
+|
+|upkeep
+|turn|20|
+|t:|1652487417
+|move|p2a: Caterpie|Tackle|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|9/244 brn
+|move|p1a: Hitmonlee|Counter|p2a: Caterpie
+|-damage|p2a: Caterpie|159/293
+|-damage|p1a: Hitmonlee|0 fnt|[from] brn|[of] p2a: Caterpie
+|faint|p1a: Hitmonlee|
+|t:|1652487417
+|switch|p1a: Chansey|Chansey, L68|481/481
+|turn|21|
+|t:|1652487417
+|move|p2a: Caterpie|Tackle|p1a: Chansey
+|-damage|p1a: Chansey|422/481
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|22|
+|t:|1652487417
+|move|p2a: Caterpie|String Shot|p1a: Chansey
+|-unboost|p1a: Chansey|spe|1
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|23|
+|t:|1652487417
+|-curestatus|p2a: Caterpie|slp|[msg]
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|24|
+|t:|1652487417
+|-curestatus|p2a: Caterpie|slp|[msg]
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|25|
+|t:|1652487417
+|move|p2a: Caterpie|String Shot|p1a: Chansey
+|-unboost|p1a: Chansey|spe|1
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|26|
+|t:|1652487417
+|-curestatus|p2a: Caterpie|slp|[msg]
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|27|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|28|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|29|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-fail|p2a: Caterpie|slp
+|
+|upkeep
+|turn|30|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|31|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|32|
+|t:|1652487417
+|-curestatus|p2a: Caterpie|slp|[msg]
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|33|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|34|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|35|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|36|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|37|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-fail|p2a: Caterpie|slp
+|
+|upkeep
+|turn|38|
+|t:|1652487417
+|-curestatus|p2a: Caterpie|slp|[msg]
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|39|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-fail|p2a: Caterpie|slp
+|
+|upkeep
+|turn|40|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-fail|p2a: Caterpie|slp
+|
+|upkeep
+|turn|41|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-fail|p2a: Caterpie|slp
+|
+|upkeep
+|turn|42|
+|t:|1652487417
+|-curestatus|p2a: Caterpie|slp|[msg]
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|43|
+|t:|1652487417
+|move|p2a: Caterpie|String Shot|p1a: Chansey
+|-unboost|p1a: Chansey|spe|1
+|move|p1a: Chansey|Sing|p2a: Caterpie
+|-status|p2a: Caterpie|slp|[from] move: Sing
+|
+|upkeep
+|turn|44|
+|t:|1652487417
+|cant|p2a: Caterpie|slp
+|move|p1a: Chansey|Sing|p2a: Caterpie|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|45
